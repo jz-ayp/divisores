@@ -5,7 +5,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
       "input": "3\r\n9",
-      "output": "Sí, uno es múltiplo del otro",
+      "output": "El número 3 es múltiplo del 9",
       "comparison": "included",
       "timeout": 1,
       "points": null
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
       "input": "9\r\n3",
-      "output": "Sí, uno es múltiplo del otro",
+      "output": "El número 3 es múltiplo del 9",
       "comparison": "included",
       "timeout": 1,
       "points": null
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
       "input": "1000\r\n12",
-      "output": "No, ninguno es múltiplo del otro",
+      "output": "Ninguno de los números es múltiplo del otro",
       "comparison": "included",
       "timeout": 1,
       "points": null
@@ -34,8 +34,8 @@
       "name": "Test4",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
-      "input": "-17\r\n680",
-      "output": "Sí, uno es múltiplo del otro",
+      "input": "0\r\n680",
+      "output": "El número 0 es múltiplo del 680",
       "comparison": "included",
       "timeout": 1,
       "points": null
