@@ -25,15 +25,15 @@
   ```
   Introduzca un número: 3
   Introduzca otro número: 9
-  Sí, uno es múltiplo del otro
+  El número 3 es múltiplo del 9
   
   Introduzca un número: 9
   Introduzca otro número: 3
-  Sí, uno es múltiplo del otro
+  El número 3 es múltiplo del 9
   
   Introduzca un número: 1000
   Introduzca otro número: 12
-  No, ninguno es múltiplo del otro
+  Ninguno de los números es múltiplo del otro
   ```
   
 - Prueba tu programa corriéndolo varias veces con diferentes entradas. Verifica que tu algoritmo produzca las salidas correctas. Pon atención especial a los casos que pudieran ser problemáticos de manejar (casos límite).
