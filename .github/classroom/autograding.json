@@ -5,7 +5,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
       "input": "3\r\n9",
-      "output": "El número 3 es múltiplo del 9",
+      "output": "El número 9 es múltiplo del 3",
       "comparison": "included",
       "timeout": 1,
       "points": null
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
       "input": "9\r\n3",
-      "output": "El número 3 es múltiplo del 9",
+      "output": "El número 9 es múltiplo del 3",
       "comparison": "included",
       "timeout": 1,
       "points": null
@@ -36,6 +36,16 @@
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
       "input": "0\r\n680",
       "output": "El número 0 es múltiplo del 680",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  {
+      "name": "Test5",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "910\r\n0",
+      "output": "El número 0 es múltiplo del 910",
       "comparison": "included",
       "timeout": 1,
       "points": null
