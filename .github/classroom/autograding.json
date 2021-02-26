@@ -39,8 +39,8 @@
       "comparison": "included",
       "timeout": 1,
       "points": null
-    }
-  {
+    },
+    {
       "name": "Test5",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
