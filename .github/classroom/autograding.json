@@ -8,7 +8,7 @@
       "output": "El número 9 es múltiplo del 3",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     },
     {
       "name": "Test2",
@@ -18,7 +18,7 @@
       "output": "El número 9 es múltiplo del 3",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     },
     {
       "name": "Test3",
@@ -28,7 +28,7 @@
       "output": "Ninguno de los números es múltiplo del otro",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     },
     {
       "name": "Test4",
@@ -38,7 +38,7 @@
       "output": "El número 0 es múltiplo del 680",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     },
     {
       "name": "Test5",
@@ -48,7 +48,7 @@
       "output": "El número 0 es múltiplo del 910",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     }
   ]
 }
