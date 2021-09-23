@@ -3,7 +3,7 @@
 ## Ejercicio: Divisores
 
 ## Objetivos
-- Formular una solución efectiva a un problema que incorpora `<recursion>, <user-defined functions>, <iteration>, <conditionals>`.
+- Formular una solución efectiva a un problema que incorpora estructuras de decisión.
 - Interpretar adecuadamente los requisitos de solución de un problema a partir de su descripcion en lenguaje natural.
 - Generar, a partir del análisis del problema:
     - La identificación correcta de las entradas y salidas requeridas, y
@@ -25,11 +25,11 @@
   ```
   Introduzca un número: 3
   Introduzca otro número: 9
-  El número 3 es múltiplo del 9
+  El número 9 es múltiplo del 3
   
   Introduzca un número: 9
   Introduzca otro número: 3
-  El número 3 es múltiplo del 9
+  El número 9 es múltiplo del 3
   
   Introduzca un número: 1000
   Introduzca otro número: 12
@@ -53,7 +53,7 @@
   ```
   
 ## Entrega
-1. Completa este y el resto de los ejercicios y compila, para cada ejercicio, el enunciado, análisis, diagrama de flujo y código, en un informe tal como se describe en los [requisitos para entrega de tareas](https://canvas.iteso.mx/courses/12856/modules/items/418369) en Canvas. También los puedes consultar [aquí](/report/report_example.pdf). No olvides incluir portada y conclusiones.
+1. Completa este y el resto de los ejercicios y compila, para cada ejercicio, el enunciado, análisis, diagrama de flujo y código, en un informe tal como se describe en los [requisitos para entrega de tareas](/report/report_example.pdf) en Canvas. No olvides incluir portada y conclusiones.
 
 2. Agrega el diagrama de flujo a la carpeta [`flowchart`](/flowchart) (puedes ver un [ejemplo de cómo se hace](https://youtu.be/oy5nhA7QpNI)).
 
@@ -62,15 +62,11 @@
 ## Casos de prueba de ejemplo
 | Entradas | Salidas |
 |:---------|:--------|
-| `3`<br>`9` | `Sí, uno es múltiplo del otro` |
-| `9`<br>`3` | `Sí, uno es múltiplo del otro` |
-| `1000`<br>`12`  | `No, ninguno es múltiplo del otro` |
+| `3`<br>`9` | `El número 9 es múltiplo del 3` |
+| `9`<br>`3` | `El número 9 es múltiplo del 3` |
+| `1000`<br>`12`  | `Ninguno de los números es múltiplo del otro` |
 
 ## Rúbrica
-- Presentación: 20%
-- Funcionalidad: 60%
-- Pruebas: 20%
-
 Verifica tu entrega contra esta rúbrica para maximizar tu calificación. Los puntos se indican en porcentaje.
 
 | Criterio | Puntos |
@@ -83,4 +79,10 @@ Verifica tu entrega contra esta rúbrica para maximizar tu calificación. Los pu
 | Formato de salidas:<br>- conforme al ejemplo en las instrucciones. | 5 |
 | Diagrama de flujo:<br>- es claro y legible,<br>- corresponde con la lógica del programa,<br>- usa las formas geométricas correctas, y<br>- está en formato png<br>[Cómo subir diagramas de flujo a GitHub](https://youtu.be/oy5nhA7QpNI) | 15 |
 | Pruebas de ejecución:<br>- son suficientes para comprobar la funcionalidad del programa,<br>- al menos una de las capturas de pantalla muestra el escritorio completo, y<br>- son legibles. | 15 |
-| Funcionalidad:<br>- pasa los casos de prueba de ejemplo, y<br>- pasa los casos de prueba reservados por el profesor. | 30 |
+| Técnica:<br>- se utilizaron las técnicas indicadas para la solución (por ejemplo, uso de determinadas estructuras, uso de funciones). | 5 |
+| Funcionalidad:<br>- pasa los casos de prueba de ejemplo, y<br>- pasa los casos de prueba reservados por el profesor. | 25 |
+
+Estos puntajes son equivalentes, aproximadamente, a la siguiente ponderación:
+- Presentación: 20%
+- Funcionalidad: 60%
+- Pruebas: 20%
