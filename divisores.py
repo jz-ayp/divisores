@@ -1,18 +1,15 @@
 """
-Dados dos números, determinar si uno es divisor del otro
+Inserta el encabezado aquí y escribe tu código abajo
 """
 
+# Declaraciones
+CONSTANTE = valor
+
 # Entradas
-numero1 = eval(input("Introduzca el primer número: "))
-numero2 = eval(input("Introduzca el segundo número: "))
+entrada = input()
 
 # Proceso
-if numero2 !=0 and numero1 % numero2 == 0:
-	resultado = f"El número {numero1} es múltiplo del {numero2}."
-elif numero1 !=0 and numero2 % numero1 == 0:
-    resultado = f"El número {numero2} es múltiplo del {numero1}."
-else:
-	resultado = "Ninguno de los números es múltiplo del otro."
+
 
 # Salidas
-print(resultado)
+print(salida)
