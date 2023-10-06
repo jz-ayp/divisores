@@ -1,13 +1,13 @@
 # Estructuras de decisión
 
-## Ejercicio: Divisores
+## Ejercicio: Múltiplos
 
 ## Instrucciones
 - Elabora el análisis y el algoritmo ***antes de escribir el código***. Utiliza un diagrama de flujo para representar tu algoritmo e ilustrar su lógica.
 
 - **Diseña un programa para que, dados dos números enteros, determine si uno es múltiplo del otro.**
 
-- Codifica tu solución en el archivo [`divisores.py`](/divisores.py).
+- Codifica tu solución en el archivo [`multiplos.py`](/multiplos.py).
    
 - Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
   ```

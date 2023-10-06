@@ -3,7 +3,7 @@
     on:
       push:
         paths:
-          - 'divisores.py'
+          - 'multiplos.py'
           - '.github/classroom/autograding.json'
 
     jobs:
